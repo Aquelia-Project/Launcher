@@ -1,0 +1,64 @@
+# Custom Language File for Launcher Customizer
+
+[ejs.app]
+title = "Aquelia Hub"
+
+[ejs.landing]
+mediaGitHubURL = "https://github.com/dscalzi/HeliosLauncher"
+mediaXURL = "#"
+mediaInstagramURL = "#"
+mediaYouTubeURL = "#"
+mediaDiscordURL = "https://discord.gg/zNWUXdt"
+
+[ejs.settings]
+sourceGithubLink = "https://github.com/dscalZi/HeliosLauncher"
+supportLink = "https://github.com/dscalZi/HeliosLauncher/issues"
+
+[ejs.welcome]
+welcomeHeader = "Welcome to the Aquelia Hub"
+welcomeDescription = "Dive into the endless world. Your adventure starts here at Aquelia Hub."
+welcomeDescCTA = "Let's Just Get Started!"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#「水の世界」という場所の定義
+#ラテン語的な解釈をベースにした、最も王道な意味付けです。
+#構成: Aqua（水） + -ia（〜の土地、〜の場所）
+#意味: 「水の聖域」「蒼の世界」
+#ストーリー: マインクラフトという無限に広がる海（データや冒険）の中で、プレイヤーが安心して帰ってこれる「拠点（聖域）」であることを意味します。

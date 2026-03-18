@@ -1,0 +1,344 @@
+[ejs.landing]
+updateAvailableTooltip = "アップデートがあるよ"
+usernamePlaceholder = "ユーザー名"
+usernameEditButton = "編集"
+settingsTooltip = "設定"
+serverStatus = "サーバー"
+serverStatusPlaceholder = "オフライン"
+mojangStatus = "MOJANG ステータス"
+mojangStatusTooltipTitle = "サービス"
+mojangStatusNETitle = "重要じゃないサービス"
+newsButton = "ニュース"
+launchButton = "プレイ"
+launchButtonPlaceholder = "&#8226; サーバーが選ばれてないよ"
+launchDetails = "ちょっと待ってね..."
+newsNavigationStatus = "{currentPage} / {totalPages}"
+newsErrorLoadSpan = "ニュースを確認中..."
+newsErrorFailedSpan = "ニュースの読み込みに失敗しちゃった"
+newsErrorRetryButton = "もう一度試す"
+newsErrorNoneSpan = "ニュースはないよ"
+
+[ejs.login]
+loginCancelText = "キャンセル"
+loginSubheader = "MINECRAFT ログイン"
+loginEmailError = "* おかしいよ"
+loginEmailPlaceholder = "メールアドレスかユーザー名"
+loginPasswordError = "* 必須だよ"
+loginPasswordPlaceholder = "パスワード"
+loginForgotPasswordLink = "https://minecraft.net/password/forgot/"
+loginForgotPasswordText = "パスワード忘れた？"
+loginRememberMeText = "ログイン状態を保存する？"
+loginButtonText = "ログイン"
+loginNeedAccountLink = "https://minecraft.net/store/minecraft-java-edition/"
+loginNeedAccountText = "アカウントを持ってない？"
+loginPasswordDisclaimer1 = "パスワードはMojangに直接送られるから、ここに保存されることはないよ。"
+loginPasswordDisclaimer2 = "{appName} は Mojang AB とは関係ないよ。"
+
+[ejs.loginOptions]
+loginOptionsTitle = "ログイン方法"
+loginWithMicrosoft = "Microsoftでログイン"
+loginWithMojang = "Mojangでログイン"
+cancelButton = "キャンセル"
+
+[ejs.overlay]
+serverSelectHeader = "遊べるサーバー"
+serverSelectConfirm = "これにする"
+serverSelectCancel = "キャンセル"
+accountSelectHeader = "アカウントを選んでね"
+accountSelectConfirm = "これにする"
+accountSelectCancel = "キャンセル"
+
+[ejs.settings]
+navHeaderText = "設定"
+navAccount = "アカウント"
+navMinecraft = "Minecraft"
+navMods = "Mod"
+navJava = "Java"
+navLauncher = "ランチャー"
+navAbout = "これについて"
+navUpdates = "アプデ"
+navDone = "完了"
+tabAccountHeaderText = "アカウント設定"
+tabAccountHeaderDesc = "新しいアカウントを入れたり、管理したりできるよ。"
+microsoftAccount = "Microsoft"
+addMicrosoftAccount = "+ Microsoftアカウントを追加"
+mojangAccount = "Mojang"
+addMojangAccount = "+ Mojangアカウントを追加"
+minecraftTabHeaderText = "Minecraft設定"
+minecraftTabHeaderDesc = "ゲームの起動に関する設定だよ。"
+gameResolutionTitle = "解像度"
+launchFullscreenTitle = "フルスクリーンで起動する"
+autoConnectTitle = "起動したとき自動でサーバーに入る"
+launchDetachedTitle = "ゲームをランチャーと切り離して起動する"
+launchDetachedDesc = "オフにすると、ランチャーを閉じたときにゲームも一緒に閉じちゃうよ。"
+tabModsHeaderText = "Mod設定"
+tabModsHeaderDesc = "Modのオン・オフを切り替えられるよ。"
+switchServerButton = "切り替え"
+requiredMods = "必須Mod"
+optionalMods = "お好みMod"
+dropinMods = "追加Mod (Drop-in)"
+addMods = "Modを追加"
+dropinRefreshNote = "(F5で更新)"
+shaderpacks = "シェーダーパック"
+shaderpackDesc = "影Modの設定。スペックの高いPCじゃないと重いから気をつけてね。自分で追加もできるよ。"
+selectShaderpack = "シェーダーを選ぶ"
+tabJavaHeaderText = "Java設定"
+tabJavaHeaderDesc = "Javaの設定（詳しい人向け）。"
+memoryTitle = "メモリ"
+maxRAM = "最大メモリ"
+minRAM = "最小メモリ"
+memoryDesc = "おすすめは3GB以上。最小と最大を同じにするとラグが減るかも。"
+memoryTotalTitle = "合計"
+memoryAvailableTitle = "空き"
+javaExecutableTitle = "Javaの実行ファイル"
+javaExecSelDialogTitle = "Javaの実行ファイルを選んでね"
+javaExecSelButtonText = "ファイルを選択"
+javaExecDesc = "起動前にJavaがちゃんと動くかチェックするよ。"
+javaPathDesc = "パスの最後が <strong>{pathSuffix}</strong> になってるか確認してね。"
+jvmOptsTitle = "追加のJVM引数"
+jvmOptsDesc = "起動時に渡すオプション。<em>-Xms</em> と <em>-Xmx</em> は書かなくていいよ。"
+launcherTabHeaderText = "ランチャー設定"
+launcherTabHeaderDesc = "ランチャー自体の設定だよ。"
+allowPrereleaseTitle = "プレリリース版のアプデを許可する"
+allowPrereleaseDesc = "プレリリース版にはテスト中の新機能が入ってるよ。<br>プレリリース版を使ってる間は、これは常にオンになるよ。"
+dataDirectoryTitle = "データディレクトリ"
+selectDataDirectory = "データディレクトリを選択"
+chooseFolder = "フォルダを選ぶ"
+dataDirectoryDesc = "ゲームのファイルやJavaはここに保存されるよ。<br>スクショとかワールドデータは、各サーバーごとのフォルダに入るよ。"
+aboutTabHeaderText = "このアプリについて"
+aboutTabHeaderDesc = "今のバージョンの情報とかが見れるよ。"
+aboutTitle = "{appName}"
+stableRelease = "安定版"
+versionText = "バージョン "
+sourceGithub = "ソースコード (GitHub)"
+support = "サポート"
+devToolsConsole = "デベロッパーツール"
+releaseNotes = "リリースノート"
+changelog = "変更履歴"
+noReleaseNotes = "リリースノートはないよ"
+viewReleaseNotes = "GitHubでリリースノートを見る"
+launcherUpdatesHeaderText = "ランチャーのアプデ"
+launcherUpdatesHeaderDesc = "ランチャーの更新を確認してインストールできるよ。"
+checkForUpdates = "アプデを確認"
+whatsNew = "新機能"
+updateReleaseNotes = "アプデの内容"
+
+[ejs.waiting]
+waitingText = "Microsoftの反応を待ってるよ..."
+
+[ejs.welcome]
+continueButton = "次へ"
+
+
+[js.discord]
+waiting = "クライアントを待ってるよ..."
+state = "サーバー: {shortId}"
+
+[js.index]
+microsoftLoginTitle = "Microsoft ログイン"
+microsoftLogoutTitle = "Microsoft ログアウト"
+
+[js.login]
+login = "ログイン"
+loggingIn = "ログイン中..."
+success = "成功！"
+tryAgain = "もう一回試す"
+
+[js.login.error]
+invalidValue = "* おかしいよ"
+requiredValue = "* 入力してね"
+
+[js.login.error.unknown]
+title = "ログイン中に謎のエラー"
+desc = "何かがおかしいみたい。コンソールを見てみて。"
+
+[js.landing.launch]
+pleaseWait = "ちょっと待ってね..."
+failureTitle = "起動に失敗したよ"
+failureText = "詳しくはコンソール (CTRL + Shift + i) を見てね。"
+okay = "オッケー"
+
+[js.landing.selectedAccount]
+noAccountSelected = "アカウントが選ばれてないよ"
+
+[js.landing.selectedServer]
+noSelection = "サーバーが選ばれてないよ"
+loading = "読み込み中..."
+
+[js.landing.serverStatus]
+server = "サーバー"
+offline = "オフライン"
+players = "プレイヤー"
+
+[js.landing.systemScan]
+checking = "システムをチェック中..."
+noCompatibleJava = "Javaが見つからないよ"
+installJavaMessage = "マイクラを動かすには64ビット版の Java {major} が必要だよ。こっちでインストールしちゃっていい？"
+installJava = "Javaをインストール"
+installJavaManually = "自分で入れる"
+javaDownloadPrepare = "Javaをダウンロードする準備中..."
+javaDownloadFailureTitle = "Javaのダウンロードに失敗したよ"
+javaDownloadFailureText = "詳しくはコンソール (CTRL + Shift + i) を見てね。"
+javaRequired = "Javaがないと<br>起動できないよ"
+javaRequiredMessage = 'ちゃんと動く64ビット版の Java {major} が必要なんだ。<br><br>手動での入れ方は <a href="https://github.com/dscalzi/HeliosLauncher/wiki/Java-Management#manually-installing-a-valid-version-of-java">Java管理ガイド</a> を見てみてね。'
+javaRequiredDismiss = "わかった"
+javaRequiredCancel = "戻る"
+
+[js.landing.downloadJava]
+findJdkFailure = "OpenJDKが見つからなかったよ。"
+javaDownloadCorruptedError = "ダウンロードしたファイルが壊れてるかも。ハッシュ値が合わないよ。"
+extractingJava = "Javaを展開中..."
+javaInstalled = "Javaのインストールが終わったよ！"
+
+[js.landing.dlAsync]
+loadingServerInfo = "サーバー情報を読み込み中..."
+fatalError = "致命的なエラー"
+unableToLoadDistributionIndex = "配布インデックスが読み込めなかったよ。詳細はコンソール (CTRL + Shift + i) を見てね。"
+pleaseWait = "ちょっと待ってね..."
+errorDuringLaunchTitle = "起動中にエラー"
+seeConsoleForDetails = "詳細はコンソール (CTRL + Shift + i) を見てね。"
+validatingFileIntegrity = "ファイルのチェック中..."
+errorDuringFileVerificationTitle = "ファイル確認中にエラー"
+downloadingFiles = "ファイルをダウンロード中..."
+errorDuringFileDownloadTitle = "ダウンロード中にエラー"
+preparingToLaunch = "起動の準備をしてるよ..."
+launchingGame = "ゲームを起動してるよ..."
+launchWrapperNotDownloaded = "大事なファイル (LaunchWrapper) がうまくダウンロードできなかったから、ゲームが起動できないよ。<br><br>直すには、一度ウイルス対策ソフトを止めてからもう一度試してみて。<br><br>もし時間があれば、使ってるソフトの名前を添えて <a href=\"https://github.com/dscalzi/HeliosLauncher/issues\">issueで教えて</a> くれると助かるな。こっちで対策を考えてみるよ。"
+doneEnjoyServer = "準備完了！楽しんでね！"
+checkConsoleForDetails = "詳しくはコンソール (CTRL + Shift + i) を見てみて。"
+
+[js.landing.news]
+checking = "ニュースをチェック中"
+
+[js.landing.discord]
+loading = "ゲームを読み込み中..."
+joining = "Westerosへ向かって航海中！"
+joined = "世界を探索中！"
+
+[js.overlay]
+dismiss = "閉じる"
+
+[js.settings.fileSelectors]
+executables = "実行ファイル"
+allFiles = "すべてのファイル"
+
+[js.settings.mstfLogin]
+errorTitle = "何かがおかしいよ"
+errorMessage = "Microsoft認証に失敗しちゃった。もう一回試してみて。"
+okButton = "OK"
+
+[js.settings.mstfLogout]
+errorTitle = "何かがおかしいよ"
+errorMessage = "Microsoftログアウトに失敗しちゃった。もう一回試してみて。"
+okButton = "OK"
+
+[js.settings.authAccountSelect]
+selectButton = "アカウントを選択"
+selectedButton = "選択済み &#10004;"
+
+[js.settings.authAccountLogout]
+lastAccountWarningTitle = "警告：<br>最後のアカウントだよ"
+lastAccountWarningMessage = "ランチャーを使うには最低1つアカウントが必要だよ。ログアウトしたらまたログインし直してね。<br><br>本当にログアウトして大丈夫？"
+confirmButton = "大丈夫"
+cancelButton = "キャンセル"
+
+[js.settings.authAccountPopulate]
+username = "ユーザー名"
+uuid = "UUID"
+selectAccount = "アカウントを選択"
+selectedAccount = "選択済み ✓"
+logout = "ログアウト"
+
+[js.settings.dropinMods]
+removeButton = "削除"
+deleteFailedTitle = "Mod {fullName} の削除に<br>失敗しちゃった"
+deleteFailedMessage = "そのファイルが使われてないか確認して、もう一回やってみて。"
+failedToggleTitle = "追加Modの切り替えに<br>失敗したよ"
+okButton = "わかった"
+
+[js.settings.serverListing]
+mainServer = "メインサーバー"
+
+[js.settings.java]
+selectedJava = "選択中: Java {version} ({vendor})"
+invalidSelection = "それじゃダメみたい"
+requiresJava = "Java {major} x64 が必要だよ。"
+availableOptions = "Java {major} (HotSpot VM) で使えるオプション"
+
+[js.settings.about]
+preReleaseTitle = "プレリリース版"
+stableReleaseTitle = "安定版"
+releaseNotesFailed = "リリースノートの読み込みに失敗しちゃった。"
+
+[js.settings.updates]
+newReleaseTitle = "新しい安定版があるよ"
+newPreReleaseTitle = "新しいプレリリース版があるよ"
+downloadingButton = "ダウンロード中..."
+downloadButton = 'GitHubからダウンロード<span style="font-size: 10px;color: gray;text-shadow: none !important;">ランチャーを閉じてdmgファイルを実行してね。</span>'
+latestVersionTitle = "最新バージョンを使ってるよ"
+checkForUpdatesButton = "アプデを確認"
+checkingForUpdatesButton = "アプデを確認中..."
+
+[js.settings.msftLogin]
+errorTitle = "Microsoftログイン失敗"
+errorMessage = "Microsoftアカウントの認証ができなかったよ。もう一回試してみて。"
+okButton = "OK"
+
+[js.uibinder.startup]
+fatalErrorTitle = "エラー：配布インデックスが読み込めないよ"
+fatalErrorMessage = "サーバーに繋がらなくて配布インデックスが落とせなかったよ。ローカルにもコピーがないみたい。<br><br>これがないと最新のサーバー情報がわからなくて起動できないんだ。ネットに繋がってるか確認してやり直してみて。"
+closeButton = "閉じる"
+
+[js.uibinder.validateAccount]
+failedMessageTitle = "ログインの更新に失敗"
+failedMessage = "<strong>{account}</strong> のログインを更新できなかったよ。別のアカウントを選ぶか、ログインし直してね。"
+failedMessageSelectAnotherAccount = "<strong>{account}</strong> のログインを更新できなかったよ。ログインし直してね。"
+loginButton = "ログイン"
+selectAnotherAccountButton = "別のアカウントを選ぶ"
+
+[js.uicore.autoUpdate]
+checkingForUpdateButton = "アプデを確認中..."
+installNowButton = "今すぐインストール"
+checkForUpdatesButton = "アプデを確認"
+
+[js.auth.microsoft.error]
+noProfileTitle = "ログインエラー：<br>プロフィールがないよ"
+noProfileDesc = "このMicrosoftアカウントにはマイクラのプロフィールがまだないみたい。最近買ったばかりなら、<a href=\"https://minecraft.net/\">Minecraft.net</a> で設定してきてね。"
+noXboxAccountTitle = "ログインエラー：<br>Xboxアカウントがないよ"
+noXboxAccountDesc = "MicrosoftアカウントにXboxアカウントが紐づいてないみたい。"
+xblBannedTitle = "ログインエラー：<br>Xbox Liveが使えないよ"
+xblBannedDesc = "今の国だとXbox Liveが使えないか、禁止されてるみたい。"
+under18Title = "ログインエラー：<br>保護者の許可が必要だよ"
+under18Desc = "18歳未満のアカウントは、大人の「ファミリー」に入れてもらわないとダメなんだ。"
+unknownTitle = "ログイン中に謎のエラー"
+unknownDesc = "何かがおかしいみたい。コンソールを見てみて。"
+
+[js.auth.mojang.error]
+methodNotAllowedTitle = "内部エラー：<br>ダメな方法だよ"
+methodNotAllowedDesc = "Method not allowed. 開発者に教えてあげて。"
+notFoundTitle = "内部エラー：<br>見つからないよ"
+notFoundDesc = "認証エンドポイントが見つからなかったよ。報告してくれると助かる。"
+accountMigratedTitle = "ログインエラー：<br>移行済みのアカウントだよ"
+accountMigratedDesc = "移行が終わってるアカウントだよ。ユーザー名じゃなくてメールアドレスでログインしてみて。"
+invalidCredentialsTitle = "ログインエラー：<br>認証情報が違うよ"
+invalidCredentialsDesc = "メールかパスワードが間違ってるみたい。もう一回試して。"
+tooManyAttemptsTitle = "ログインエラー：<br>何度も失敗しすぎだよ"
+tooManyAttemptsDesc = "短時間に何度もログインしようとしすぎ。しばらく待ってからまたやってみて。"
+invalidTokenTitle = "ログインエラー：<br>トークンがおかしいよ"
+invalidTokenDesc = "アクセストークンが無効だよ。"
+tokenHasProfileTitle = "ログインエラー：<br>プロフィールがあるよ"
+tokenHasProfileDesc = "すでにプロフィールが割り当てられてるみたい。プロフィールの選択機能はまだ作ってないんだ。"
+credentialsMissingTitle = "ログインエラー：<br>情報が足りないよ"
+credentialsMissingDesc = "ユーザー名かパスワードが入ってないか、パスワードが短すぎるよ。"
+invalidSaltVersionTitle = "ログインエラー：<br>ソルトバージョンがおかしいよ"
+invalidSaltVersionDesc = "Invalid salt version."
+unsupportedMediaTypeTitle = "内部エラー：<br>非対応のメディアタイプ"
+unsupportedMediaTypeDesc = "Unsupported media type. 報告してね。"
+accountGoneTitle = "ログインエラー：<br>移行済みだよ"
+accountGoneDesc = "Microsoftアカウントへの移行が終わってるから、そっちでログインしてね。"
+unreachableTitle = "ログインエラー：<br>繋がらないよ"
+unreachableDesc = "認証サーバーに届かない。ネットに繋がってる？"
+gameNotPurchasedTitle = "ログインエラー：<br>ゲームを買ってないよ"
+gameNotPurchasedDesc = "このアカウント、マイクラを買ってないみたい。<a href=\"https://minecraft.net/\">Minecraft.net</a> で買えるよ。"
+unknownErrorTitle = "ログイン中に謎のエラー"
+unknownErrorDesc = "何かがおかしいみたい。コンソールを見てみて。"
